@@ -1,0 +1,28 @@
+.active{
+    color: #fffb0c;
+}
+
+.inactive{
+    color: #fff;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: #19172e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 45px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem;
+    font-family: cursive;
+    color: #000;
+}

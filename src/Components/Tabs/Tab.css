@@ -1,0 +1,46 @@
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #19172e;
+    color: #fff;
+    align-items: center;
+    margin: 10%  auto 0 auto;
+    width: 500px;
+  }
+
+
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    /* border: 1px solid #fff; */
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+ 
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active-tab {
+    background-color: #0ae42f;
+  }
+
+
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+  }
+
+  .active-tab,
+  .active-content{
+    display: block;
+  }
