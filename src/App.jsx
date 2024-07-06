@@ -1,5 +1,7 @@
 import Home from "./Pages/Home";
 
+import Loading from "./Components/Load-more/Loading"
+
 import Tabs from "./Components/Tabs/Tabs"
 
 import LightDark from "./Components/Theme/LightDark";
@@ -35,6 +37,8 @@ function App() {
       <LightDark />
 
       <Tabs />
+
+      <Loading />
     </>
   )
 }
